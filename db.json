@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "T-shirt with Tape Details",
+      "category": "t-shirt",
+      "price": 120,
+      "oldPrice": null,
+      "discount": null,
+      "rating": 4.5,
+      "image": "/images/tshirt1.png"
+    },
+    {
+      "id": 2,
+      "title": "Skinny Fit Jeans",
+      "category": "pants",
+      "price": 240,
+      "oldPrice": 260,
+      "discount": "-20%",
+      "rating": 3.5,
+      "image": "/images/3.png"
+    },
+    {
+      "id": 3,
+      "title": "Checkered Shirt",
+      "category": "shirt",
+      "price": 180,
+      "oldPrice": null,
+      "discount": null,
+      "rating": 4.5,
+      "image": "/images/tshirt2.png"
+    },
+    {
+      "id": 4,
+      "title": "Sleeve Striped T-shirt",
+      "category": "t-shirt",
+      "price": 130,
+      "oldPrice": 160,
+      "discount": "-30%",
+      "rating": 4.5,
+      "image": "/images/tshirt3.png"
+    }
+  ],
+  "newArray": [
+    {
+      "id": 1,
+      "title": "Vertical Striped Shirt",
+      "category": "shirt",
+      "image": "/images/Fr1.png",
+      "price": 212,
+      "oldPrice": 232,
+      "discount": "-20%",
+      "rating": 5.0
+    },
+    {
+      "id": 2,
+      "title": "Courage Graphic T-shirt",
+      "category": "t-shirt",
+      "image": "/images/Fr2.png",
+      "price": 145,
+      "oldPrice": null,
+      "discount": null,
+      "rating": 4.0
+    },
+    {
+      "id": 3,
+      "title": "Loose Fit Bermuda Shorts",
+      "category": "shorts",
+      "image": "/images/Fr3.png",
+      "price": 80,
+      "oldPrice": null,
+      "discount": null,
+      "rating": 3.0
+    },
+    {
+      "id": 4,
+      "title": "Faded Skinny Jeans",
+      "category": "pants",
+      "image": "/images/Fr4.png",
+      "price": 210,
+      "oldPrice": null,
+      "discount": null,
+      "rating": 4.5
+    }
+  ]
+}
