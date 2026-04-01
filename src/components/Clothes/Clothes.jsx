@@ -11,7 +11,7 @@ useEffect(() => {
 
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/products');
+                const response = await axios.get('http://localhost:3000/products');
                 setProducts(response.data);
                 setLoading(false);
             } catch (error) {

@@ -15,15 +15,12 @@ import Feedback from '../../components/Feedback/Feedback'
 const Homepage = () => {
   return (
     <main >
-
-      <Header />
       <Homemain />
       <Brends />
       <Clothes />
       <Clothes2 />
       <List />
       <Feedback/>
-      <Footer />
     </main>
   )
 }

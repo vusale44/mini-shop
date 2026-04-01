@@ -11,7 +11,7 @@ const Clothes2 = () => {
 
         const fetchcloth = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/newArray');
+                const response = await axios.get('http://localhost:3000/newArray');
                 setcloth (response.data);
                 setLoading(false);
             } catch (error) {
