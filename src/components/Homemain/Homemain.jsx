@@ -4,7 +4,7 @@ import star1 from '../../assets/Vector (1).png'
 import star2 from '../../assets/Vector (2).png'
 
 
-const Main = () => {
+const Homemain = () => {
     return (
         <div className='bg-[#f2f0f1] flex items-center justify-evenly w-[100%] '>
             <div className='flex flex-col items-start justify-center w-[500px]'>
@@ -21,4 +21,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Homemain

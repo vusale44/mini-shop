@@ -1,87 +1,122 @@
-{ 
-
+{
   "products": [
     {
       "id": 1,
       "title": "T-shirt with Tape Details",
-      "category": "t-shirt",
+      "category": "T-shirt",
+      "color": "black",
       "price": 120,
-      "oldPrice": null,
-      "discount": null,
       "rating": 4.5,
-      "image": "/images/tshirt1.png"
+      "image": "/images/tshirt1.png",
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
     },
     {
       "id": 2,
       "title": "Skinny Fit Jeans",
-      "category": "pants",
+      "category": "Pants",
+      "color": "blue",
       "price": 240,
       "oldPrice": 260,
       "discount": "-20%",
       "rating": 3.5,
-      "image": "/images/3.png"
+      "image": "/images/3.png",
+      "sizes": ["Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
     },
     {
       "id": 3,
       "title": "Checkered Shirt",
-      "category": "shirt",
+      "category": "Shirt",
+      "color": "red",
       "price": 180,
-      "oldPrice": null,
-      "discount": null,
       "rating": 4.5,
-      "image": "/images/tshirt2.png"
+      "image": "/images/tshirt2.png",
+      "sizes": [ "3X-Large", "4X-Large"]
     },
     {
       "id": 4,
       "title": "Sleeve Striped T-shirt",
-      "category": "t-shirt",
+      "category": "T-shirt",
+      "color": "orange",
       "price": 130,
       "oldPrice": 160,
       "discount": "-30%",
       "rating": 4.5,
-      "image": "/images/tshirt3.png"
-    }
-  ],
-  "newArray": [
+      "image": "/images/tshirt3.png",
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
+    },
     {
-      "id": 1,
+      "id": 5,
       "title": "Vertical Striped Shirt",
-      "category": "shirt",
-      "image": "/images/Fr1.png",
+      "category": "Shirt",
+      "color": "green",
       "price": 212,
       "oldPrice": 232,
       "discount": "-20%",
-      "rating": 5.0
+      "rating": 5.0,
+      "image": "/images/Fr1.png",
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
     },
     {
-      "id": 2,
+      "id": 6,
       "title": "Courage Graphic T-shirt",
-      "category": "t-shirt",
-      "image": "/images/Fr2.png",
+      "category": "T-shirt",
+      "color": "orange",
       "price": 145,
-      "oldPrice": null,
-      "discount": null,
-      "rating": 4.0
+      "rating": 4.0,
+      "image": "/images/Fr2.png",
+      "sizes": ["XX-Small", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
     },
     {
-      "id": 3,
+      "id": 7,
       "title": "Loose Fit Bermuda Shorts",
-      "category": "shorts",
-      "image": "/images/Fr3.png",
+      "category": "Shorts",
+      "color": "skyblue",
       "price": 80,
-      "oldPrice": null,
-      "discount": null,
-      "rating": 3.0
+      "rating": 3.0,
+      "image": "/images/Fr3.png",
+      "sizes": ["XX-Small", "X-Small", "Small", "3X-Large", "4X-Large"]
     },
     {
-      "id": 4,
+      "id": 8,
       "title": "Faded Skinny Jeans",
-      "category": "pants",
-      "image": "/images/Fr4.png",
+      "category": "Pants",
+      "color": "gray",
       "price": 210,
-      "oldPrice": null,
-      "discount": null,
-      "rating": 4.5
+      "rating": 4.5,
+      "image": "/images/Fr4.png",
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
+    },
+    {
+      "id": 9,
+      "title": "Gradient Graphic T-shirt",
+      "category": "Casual",
+      "color": "white",
+      "price": 145,
+      "rating": 3.5,
+      "image": "/images/Fr5.png",
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
+    },
+    {
+      "id": 10,
+      "title": "Polo with Tipping Details",
+      "category": "Casual",
+      "color": "maroon",
+      "price": 180,
+      "rating": 4.5,
+      "image": "/images/Fr6.png",
+      "sizes": ["Large", "X-Large"]
+    },
+    {
+      "id": 11,
+      "title": "Black Striped T-shirt",
+      "category": "Casual",
+      "color": "white",
+      "price": 120,
+      "oldPrice": 150,
+      "discount": "-30%",
+      "rating": 5.0,
+      "image": "/images/Fr7.png",
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
     }
   ]
 }

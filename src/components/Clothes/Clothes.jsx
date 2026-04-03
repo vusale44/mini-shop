@@ -2,28 +2,11 @@
  import { useEffect } from 'react'
 import { useState } from 'react'
 import axios from 'axios';
+import { useContext } from 'react';
+import { ProductContext } from '../Context/Contextapi';
 
 const Clothes = () => {
-
-const [products, setProducts] = useState([]);
-const [loading, setLoading] = useState(true);
-useEffect(() => {
-
-        const fetchProducts = async () => {
-            try {
-                const response = await axios.get('http://localhost:3000/products');
-                setProducts(response.data);
-                setLoading(false);
-            } catch (error) {
-                console.error("Dataları çəkərkən xəta baş verdi:", error);
-                setLoading(false);
-            }
-        };
-
-        fetchProducts();
-    }, []);
-
-    if (loading) return <p>Yüklənir...</p>;
+const {products} = useContext (ProductContext)
 
     return (
         < div className='w-[100%] h-auto mx-auto' >
@@ -33,7 +16,7 @@ useEffect(() => {
 
             <div class="flex items-center justify-center w-[90%] mx-auto">
                 <div class="flex items-center gap-8 mt-8">
-                    {products.map((product) => {
+                    {products.slice(0,4).map((product) => {
                         return (
                             <div class="bg-white overflow-hidden cursor-pointer hover:shadow-lg transition-all duration-300 relative">
                                 <a href="javascript:void(0)" class="block">

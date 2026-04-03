@@ -2,29 +2,12 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import axios from 'axios';
+import { ProductContext } from '../Context/Contextapi';
+import { useContext } from 'react';
 
 const Clothes2 = () => {
 
-    const [cloth, setcloth] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-
-        const fetchcloth = async () => {
-            try {
-                const response = await axios.get('http://localhost:3000/newArray');
-                setcloth (response.data);
-                setLoading(false);
-            } catch (error) {
-                console.error("Dataları çəkərkən xəta baş verdi:", error);
-                setLoading(false);
-            }
-        };
-
-        fetchcloth();
-    }, []);
-
-    if (loading) return <p>Yüklənir...</p>;
-
+    const {products} = useContext (ProductContext)
     return (
         < div className='w-[100%] h-auto mx-auto mt-24 pb-20' >
 
@@ -33,7 +16,7 @@ const Clothes2 = () => {
 
             <div class="flex items-center justify-center w-[90%] mx-auto">
                 <div class="flex items-center gap-8 mt-8">
-                    {cloth.map((items) => {
+                    {products.slice(4, 8).map((items) => {
                         return (
                             <div class="bg-white overflow-hidden cursor-pointer hover:shadow-lg transition-all duration-300 relative">
                                 <a href="javascript:void(0)" class="block">
