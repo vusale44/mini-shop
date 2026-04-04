@@ -61,7 +61,7 @@
       "title": "Courage Graphic T-shirt",
       "category": "T-shirt",
       "color": "orange",
-      "price": 145,
+      "price": 145 ,
       "rating": 4.0,
       "image": "/images/Fr2.png",
       "sizes": ["XX-Small", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
@@ -71,7 +71,7 @@
       "title": "Loose Fit Bermuda Shorts",
       "category": "Shorts",
       "color": "skyblue",
-      "price": 80,
+      "price": 80 ,
       "rating": 3.0,
       "image": "/images/Fr3.png",
       "sizes": ["XX-Small", "X-Small", "Small", "3X-Large", "4X-Large"]
@@ -81,7 +81,7 @@
       "title": "Faded Skinny Jeans",
       "category": "Pants",
       "color": "gray",
-      "price": 210,
+      "price": 210 ,
       "rating": 4.5,
       "image": "/images/Fr4.png",
       "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
@@ -117,6 +117,176 @@
       "rating": 5.0,
       "image": "/images/Fr7.png",
       "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
-    }
+    },
+
+  
+    {
+      "id": 12,
+      "title": "Yaşıl Bomber Gödəkçə",
+      "price": 79.99,
+      "category": "Casual",
+       "sizes": [ "3X-Large", "4X-Large"],
+      "color": "green",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300&h=400&fit=crop",
+      "description": "Hərbi üslublu, rahat yaşıl bomber gödəkçə"
+      
+    },
+    
+   
+    {
+      "id": 13,
+      "title": "Ağ Qadın Köynəyi",
+      "price": 32.99,
+      "category": "Shirt",
+      "color": "white",
+       "sizes": [ "3X-Large", "4X-Large"],
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=300&h=400&fit=crop",
+      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
+    },
+    
+    {
+      "id": 14,
+      "title": "Çəhrayı-Ağ Zolaq Köynək",
+      "price": 27.99,
+      "category": "Shirt",
+      "color": "blue",
+       "sizes": [ "3X-Large", "4X-Large"],
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&h=400&fit=crop",
+      "description": "Yazlıq üçün ideal çəhrayı-ağ zolaq naxışlı köynək"
+    },
+    {
+    "id": 15,
+    "title": "Nike Air Max 270",
+    "price": 150.00,
+    "oldPrice": 180.00,
+    "rating": 4.8,
+    "category": "Shoes",
+    "color": "white/black",
+    "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Gündəlik yürüş və idman üçün maksimum rahatlıq təmin edən hava yastıqlı model."
+  },
+  {
+    "id": 16,
+    "title": "Adidas Ultraboost 22",
+    "price": 130.00,
+    "oldPrice": 165.00,
+    "rating": 4.9,
+    "category": "Shoes",
+    "color": "blue",
+    "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Yüksək enerji geri dönüşü təmin edən qaçış ayaqqabısı."
+  },
+  {
+    "id": 17,
+    "title": "Classic Leather Sneaker",
+    "price": 85.00,
+    "oldPrice": 110.00,
+    "rating": 4.5,
+    "category": "Shoes",
+    "color": "brown",
+    "image": "https://images.unsplash.com/photo-1626947346165-4c2288dadc2a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Premium dəridən hazırlanmış, klassik üslubda gündəlik krossovka."
+  },
+  {
+    "id": 18,
+    "title": "Jordan Retro High",
+    "price": 190.00,
+    "oldPrice": null,
+    "rating": 5.0,
+    "category": "Shoes",
+    "color": "red/black",
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Basketbol dünyasının ikonik modeli, həm idman həm də stil üçün."
+  },
+  {
+    "id": 19,
+    "title": "Converse Chuck Taylor",
+    "price": 60.00,
+    "oldPrice": 75.00,
+    "rating": 4.7,
+    "category": "Shoes",
+    "color": "black",
+    "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?q=80&w=1431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Heç vaxt dəbdən düşməyən kətan teksturalı minimalist ayaqqabı."
+  },
+  {
+    "id": 20,
+    "title": "Vans Old Skool",
+    "price": 70.00,
+    "oldPrice": 90.00,
+    "rating": 4.6,
+    "category": "Shoes",
+    "color": "black/white",
+    "image": "https://images.unsplash.com/photo-1550399865-ec7d23b18e8e?q=80&w=394&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Skeytbord mədəniyyətindən ilhamlanan davamlı və rahat model."
+  },
+  
+  {
+    "id": 21,
+    "title": "Floral Summer Dress",
+    "price": 145.00,
+    "oldPrice": 160.00,
+    "rating": 4.7,
+    "category": "Dress",
+    "color": "pink",
+    "image": "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?q=80&w=480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Yüngül və nəfəs alan pambıqdan hazırlanmış, çiçək naxışlı yay donu."
+  },
+  {
+    "id": 22,
+    "title": "Elegant Evening Gown",
+    "price": 120.00,
+    "oldPrice": 150.00,
+    "rating": 4.9,
+    "category": "Dress",
+    "color": "black",
+    "image": "https://media.istockphoto.com/id/961849932/photo/black-dress-on-hanger-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=NegM9MR_7wnS2P-lJ5xXGYqVuTSvGhUq4c_FSwtUM8I=",
+    "description": "Ziyafətlər və rəsmi tədbirlər üçün saten teksturalı zərif axşam donu."
+  },
+  {
+    "id": 23,
+    "title": "Casual Linen Dress",
+    "price": 38.50,
+    "oldPrice": 45.00,
+    "rating": 4.5,
+    "category": "Dress",
+    "color": "beige",
+    "image": "https://media.istockphoto.com/id/625410268/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=3zNzsoPYLEnntC9qzBvl2odjXRsk1KSGqqFVdu1i8uc=",
+    "description": "Gündəlik istifadə üçün rahat, təbii kətan materialdan minimalist don."
+  },
+  {
+    "id": 24,
+    "title": "Little Black Dress",
+    "price": 55.00,
+    "oldPrice": null,
+    "rating": 5.0,
+    "category": "Dress",
+    "color": "blue",
+    "image": "https://media.istockphoto.com/id/620007522/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=VS__vgb8N1CGUhSJnj04MTJs3KYq6Qnl7_5VMtIo-eM=",
+    "description": "Hər bir qadının qarderobunda olmalı olan klassik və çoxfunksiyalı qara don."
+  },
+  {
+    "id": 25,
+    "title": "Boho Midi Dress",
+    "price": 265.00,
+    "oldPrice": 285.00,
+    "rating": 4.6,
+    "category": "Dress",
+    "color": "green",
+    "image": "https://media.istockphoto.com/id/542822390/photo/dress-on-hanger.jpg?s=612x612&w=0&k=20&c=YOjF6e6tIQIuRv03K1IZ59xXpXZw9CiOMcgB5Iw5DFA=",
+    "description": "Bohem üslubunda, beli vurğulayan və qat-qat ətəkli şıq midi don."
+  },
+  {
+    "id": 26,
+    "title": "Polka Dot Sun Dress",
+    "price": 230.00,
+    "oldPrice": 140.00,
+    "rating": 4.4,
+    "category": "Dress",
+    
+    "color": "green",
+    "image": "https://media.istockphoto.com/id/618035468/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=F45ET0ZkmC9rPJqYSF8dggEre6Uwih9MMyKloMXBu5Q=",
+    "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
+  }  
   ]
 }
