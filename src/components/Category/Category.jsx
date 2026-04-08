@@ -6,9 +6,13 @@ import React, { useState } from 'react'
 
 import { ProductContext } from '../Context/Contextapi'
 import { useContext } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 const Category = () => {
+
+    const navigate = useNavigate();
+
 
     const [cat, setCat] = useState("All")
     const [color, setColor] = useState("All")
@@ -30,7 +34,7 @@ const Category = () => {
     let categorysize = ["Clear", ...new Set(sizeAll.map((item) => item))]
     let filtersize = size === "Clear" ? filtercolor : filtercolor.filter((item) => item.sizes.includes(size))
 
-    let categoryprice = [500, ...new Set(products.map((item) => item.price))]
+
     let filterprice = price === 500 ? filtersize : filtersize.filter((products) => products.price <= price)
 
 
@@ -74,22 +78,22 @@ const Category = () => {
                             <div>
                                 <h6 class="text-slate-900 text-sm font-semibold">Price</h6>
                                 <div class="relative mt-6">
- 
-      <div>
-                             
-                                    
-                           
+
+                                    <div>
+
+
+
                                         <label htmlFor="">
-                                            
+
                                             <input type="range" class="w-full"
-                                            min={0} max={500}
+                                                min={0} max={500}
                                                 value={price}
-                                                onChange={(e) => setPrice (Number(e.target.value))}
+                                                onChange={(e) => setPrice(Number(e.target.value))}
                                                 id="myRange" />
                                             {price}
-                                           
+
                                         </label>
-                           
+
                                     </div>
 
                                 </div>
@@ -150,7 +154,8 @@ const Category = () => {
                             {filterprice.map((product) => {
                                 return (
 
-                                    <div class="bg-white overflow-hidden cursor-pointer hover:shadow-lg transition-all duration-300 relative">
+                                    <div onClick={() => navigate(`/product/${product.id}`)}
+                                        class="bg-white overflow-hidden cursor-pointer hover:shadow-lg transition-all duration-300 relative">
 
                                         <div class="w-[300px] h-[300px]">
                                             <img src={product.image} alt=""
@@ -162,17 +167,21 @@ const Category = () => {
                                             <h4 className="text-[15px] text-slate-900 font-medium leading-relaxed">{product.title}</h4>
 
                                             <div className="flex items-center mt-2">
+                                               
                                                 <div className="flex items-center space-x-1">
                                                     {[1, 2, 3, 4, 5].map((star) => (
                                                         <svg
                                                             key={star}
                                                             className={`w-4 h-4 ${star <= product.rating ? "fill-[#facc15]" : "fill-[#CED5D8]"}`}
-                                                            viewBox="0 0 14 13"
+                                                                 viewBox="0 0 14 13"
+
                                                             xmlns="http://www.w3.org/2000/svg"
                                                         >
                                                             <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                                                         </svg>
                                                     ))}
+
+
                                                 </div>
 
                                                 <span className="text-[15px] text-slate-900 font-medium ml-2">{product.rating}/5</span>
@@ -195,8 +204,8 @@ const Category = () => {
 
                     </div >
                 </section>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

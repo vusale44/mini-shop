@@ -14,10 +14,10 @@ const List = () => {
           Browse by Dress Style
         </h2>
 
-        {/* Grid Sistemi: 6 sütunlu struktur */}
+  
         <div className="grid grid-cols-1 md:grid-cols-6 gap-5">
           
-          {/* Casual - 2 Sütun (Sol Qısa) */}
+      
           <div className="md:col-span-2 relative h-[190px] md:h-[289px] bg-white rounded-[20px] overflow-hidden group cursor-pointer">
             <span className="absolute top-4 left-6 md:top-6 md:left-9 text-2xl md:text-3xl font-bold z-10 text-black">
               Casual
@@ -29,7 +29,7 @@ const List = () => {
             />
           </div>
 
-          {/* Formal - 4 Sütun (Sağ Uzun) */}
+          
           <div className="md:col-span-4 relative h-[190px] md:h-[289px] bg-white rounded-[20px] overflow-hidden group cursor-pointer">
             <span className="absolute top-4 left-6 md:top-6 md:left-9 text-2xl md:text-3xl font-bold z-10 text-black">
               Formal
@@ -41,7 +41,7 @@ const List = () => {
             />
           </div>
 
-          {/* Party - 4 Sütun (Sol Uzun) */}
+          
           <div className="md:col-span-4 relative h-[190px] md:h-[289px] bg-white rounded-[20px] overflow-hidden group cursor-pointer">
             <span className="absolute top-4 left-6 md:top-6 md:left-9 text-2xl md:text-3xl font-bold z-10 text-black">
               Party
@@ -53,7 +53,6 @@ const List = () => {
             />
           </div>
 
-          {/* Gym - 2 Sütun (Sağ Qısa) */}
           <div className="md:col-span-2 relative h-[190px] md:h-[289px] bg-white rounded-[20px] overflow-hidden group cursor-pointer">
             <span className="absolute top-4 left-6 md:top-6 md:left-9 text-2xl md:text-3xl font-bold z-10 text-black">
               Gym
@@ -67,7 +66,7 @@ const List = () => {
 
         </div>
 
-        {/* Bölmənin sonundakı "View All" düyməsi (Opsional) */}
+    
         <div className='flex items-center justify-center mt-10 md:hidden'>
            <button className='w-full py-4 bg-white rounded-full font-medium text-black border border-gray-200'>
              View All Styles

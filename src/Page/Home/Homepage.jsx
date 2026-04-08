@@ -6,7 +6,6 @@ import Clothes from '../../components/Clothes/Clothes'
 import Clothes2 from '../../components/Clothes2/Clothes2'
 import List from '../../components/List/List'
 import Feedback from '../../components/Feedback/Feedback'
-import { ProviderContext } from '../../components/Context/Contextapi'
 import Homemain from '../../components/Homemain/Homemain'
 import Search from '../../components/Search/Search'
 

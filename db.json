@@ -8,7 +8,8 @@
       "price": 120,
       "rating": 4.5,
       "image": "/images/tshirt1.png",
-      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"],
+         "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "discount": "-20%",
       "rating": 3.5,
       "image": "/images/3.png",
-      "sizes": ["Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
+      "sizes": ["Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"],
+         "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
     },
     {
       "id": 3,
@@ -30,7 +32,8 @@
       "price": 180,
       "rating": 4.5,
       "image": "/images/tshirt2.png",
-      "sizes": [ "3X-Large", "4X-Large"]
+      "sizes": [ "3X-Large", "4X-Large"],
+         "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
     },
     {
       "id": 4,
@@ -42,6 +45,7 @@
       "discount": "-30%",
       "rating": 4.5,
       "image": "/images/tshirt3.png",
+         "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi",
       "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
     },
     {
@@ -54,7 +58,8 @@
       "discount": "-20%",
       "rating": 5.0,
       "image": "/images/Fr1.png",
-      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
+      "sizes": ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"],
+      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
     },
     {
       "id": 6,
@@ -124,6 +129,7 @@
       "id": 12,
       "title": "Yaşıl Bomber Gödəkçə",
       "price": 79.99,
+        "rating": 5.0,
       "category": "Casual",
        "sizes": [ "3X-Large", "4X-Large"],
       "color": "green",
@@ -138,6 +144,7 @@
       "title": "Ağ Qadın Köynəyi",
       "price": 32.99,
       "category": "Shirt",
+        "rating": 5.0,
       "color": "white",
        "sizes": [ "3X-Large", "4X-Large"],
       "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=300&h=400&fit=crop",
@@ -148,6 +155,7 @@
       "id": 14,
       "title": "Çəhrayı-Ağ Zolaq Köynək",
       "price": 27.99,
+        "rating": 5.0,
       "category": "Shirt",
       "color": "blue",
        "sizes": [ "3X-Large", "4X-Large"],
@@ -161,7 +169,8 @@
     "oldPrice": 180.00,
     "rating": 4.8,
     "category": "Shoes",
-    "color": "white/black",
+      "sizes": [ "3X-Large", "4X-Large"],
+    "color": "black",
     "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Gündəlik yürüş və idman üçün maksimum rahatlıq təmin edən hava yastıqlı model."
   },
@@ -172,7 +181,8 @@
     "oldPrice": 165.00,
     "rating": 4.9,
     "category": "Shoes",
-    "color": "blue",
+      "sizes": [ "3X-Large", "4X-Large"],
+    "color": "orange",
     "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Yüksək enerji geri dönüşü təmin edən qaçış ayaqqabısı."
   },
@@ -183,6 +193,7 @@
     "oldPrice": 110.00,
     "rating": 4.5,
     "category": "Shoes",
+      "sizes": [ "3X-Large", "4X-Large"],
     "color": "brown",
     "image": "https://images.unsplash.com/photo-1626947346165-4c2288dadc2a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Premium dəridən hazırlanmış, klassik üslubda gündəlik krossovka."
@@ -194,7 +205,8 @@
     "oldPrice": null,
     "rating": 5.0,
     "category": "Shoes",
-    "color": "red/black",
+      "sizes": [ "3X-Large", "4X-Large"],
+    "color": "red",
     "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Basketbol dünyasının ikonik modeli, həm idman həm də stil üçün."
   },
@@ -205,7 +217,8 @@
     "oldPrice": 75.00,
     "rating": 4.7,
     "category": "Shoes",
-    "color": "black",
+      "sizes": [ "3X-Large", "4X-Large"],
+    "color": "white",
     "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?q=80&w=1431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Heç vaxt dəbdən düşməyən kətan teksturalı minimalist ayaqqabı."
   },
@@ -216,7 +229,8 @@
     "oldPrice": 90.00,
     "rating": 4.6,
     "category": "Shoes",
-    "color": "black/white",
+    "color": "green",
+      "sizes": [ "3X-Large", "4X-Large"],
     "image": "https://images.unsplash.com/photo-1550399865-ec7d23b18e8e?q=80&w=394&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Skeytbord mədəniyyətindən ilhamlanan davamlı və rahat model."
   },
@@ -228,7 +242,8 @@
     "oldPrice": 160.00,
     "rating": 4.7,
     "category": "Dress",
-    "color": "pink",
+      "sizes": [ "3X-Large", "4X-Large"],
+    "color": "green",
     "image": "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?q=80&w=480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Yüngül və nəfəs alan pambıqdan hazırlanmış, çiçək naxışlı yay donu."
   },
@@ -239,6 +254,7 @@
     "oldPrice": 150.00,
     "rating": 4.9,
     "category": "Dress",
+      "sizes": [ "3X-Large", "4X-Large"],
     "color": "black",
     "image": "https://media.istockphoto.com/id/961849932/photo/black-dress-on-hanger-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=NegM9MR_7wnS2P-lJ5xXGYqVuTSvGhUq4c_FSwtUM8I=",
     "description": "Ziyafətlər və rəsmi tədbirlər üçün saten teksturalı zərif axşam donu."
@@ -250,7 +266,8 @@
     "oldPrice": 45.00,
     "rating": 4.5,
     "category": "Dress",
-    "color": "beige",
+      "sizes": [ "3X-Large", "4X-Large"],
+    "color": "red",
     "image": "https://media.istockphoto.com/id/625410268/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=3zNzsoPYLEnntC9qzBvl2odjXRsk1KSGqqFVdu1i8uc=",
     "description": "Gündəlik istifadə üçün rahat, təbii kətan materialdan minimalist don."
   },
@@ -260,6 +277,7 @@
     "price": 55.00,
     "oldPrice": null,
     "rating": 5.0,
+      "sizes": [ "3X-Large", "4X-Large"],
     "category": "Dress",
     "color": "blue",
     "image": "https://media.istockphoto.com/id/620007522/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=VS__vgb8N1CGUhSJnj04MTJs3KYq6Qnl7_5VMtIo-eM=",
@@ -272,7 +290,8 @@
     "oldPrice": 285.00,
     "rating": 4.6,
     "category": "Dress",
-    "color": "green",
+      "sizes": [ "3X-Large", "4X-Large"],
+    "color": "pink",
     "image": "https://media.istockphoto.com/id/542822390/photo/dress-on-hanger.jpg?s=612x612&w=0&k=20&c=YOjF6e6tIQIuRv03K1IZ59xXpXZw9CiOMcgB5Iw5DFA=",
     "description": "Bohem üslubunda, beli vurğulayan və qat-qat ətəkli şıq midi don."
   },
@@ -283,7 +302,7 @@
     "oldPrice": 140.00,
     "rating": 4.4,
     "category": "Dress",
-    
+      "sizes": [ "3X-Large", "4X-Large"],
     "color": "green",
     "image": "https://media.istockphoto.com/id/618035468/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=F45ET0ZkmC9rPJqYSF8dggEre6Uwih9MMyKloMXBu5Q=",
     "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
