@@ -367,7 +367,7 @@
         "4X-Large"
       ],
       "color": "black",
-      "image": "https://media.istockphoto.com/id/961849932/photo/black-dress-on-hanger-isolated-on-white-background.jpg",
+      "image": "https://media.istockphoto.com/id/961849932/photo/black-dress-on-hanger-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=NegM9MR_7wnS2P-lJ5xXGYqVuTSvGhUq4c_FSwtUM8I=",
       "description": "Ziyafətlər və rəsmi tədbirlər üçün saten teksturalı zərif axşam donu."
     },
     {
@@ -382,7 +382,7 @@
         "4X-Large"
       ],
       "color": "red",
-      "image": "https://media.istockphoto.com/id/625410268/photo/dress-on-clothes-rack.jpg",
+      "image": "https://media.istockphoto.com/id/625410268/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=3zNzsoPYLEnntC9qzBvl2odjXRsk1KSGqqFVdu1i8uc=",
       "description": "Gündəlik istifadə üçün rahat, təbii kətan materialdan minimalist don."
     },
     {
@@ -396,7 +396,7 @@
       ],
       "category": "Dress",
       "color": "blue",
-      "image": "https://media.istockphoto.com/id/620007522/photo/dress-on-clothes-rack.jpg",
+      "image": "https://media.istockphoto.com/id/620007522/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=VS__vgb8N1CGUhSJnj04MTJs3KYq6Qnl7_5VMtIo-eM=",
       "description": "Hər bir qadının qarderobunda olmalı olan klassik və çoxfunksiyalı qara don."
     },
     {
@@ -411,7 +411,7 @@
         "4X-Large"
       ],
       "color": "pink",
-      "image": "https://media.istockphoto.com/id/542822390/photo/dress-on-hanger.jpg",
+      "image": "https://media.istockphoto.com/id/542822390/photo/dress-on-hanger.jpg?s=612x612&w=0&k=20&c=YOjF6e6tIQIuRv03K1IZ59xXpXZw9CiOMcgB5Iw5DFA=",
       "description": "Bohem üslubunda, beli vurğulayan və qat-qat ətəkli şıq midi don."
     },
     {
@@ -426,76 +426,7 @@
         "4X-Large"
       ],
       "color": "green",
-      "image": "https://media.istockphoto.com/id/618035468/photo/dress-on-clothes-rack.jpg",
-      "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
-    },
-    {
-      "title": "alma",
-      "category": "Shorts",
-      "color": "eladi",
-      "price": 40,
-      "discount": 10,
-      "rating": 3,
-      "image": "/images/Fr3.png",
-      "sizes": [
-        "XX-Small",
-        "X-Small",
-        "Small",
-        "3X-Large",
-        "4X-Large"
-      ],
-      "id": "RDwVovtdieQ"
-    },
-    {
-      "title": "alma",
-      "category": "Shorts",
-      "color": "eladi",
-      "price": 40,
-      "discount": 10,
-      "rating": 3,
-      "image": "/images/Fr3.png",
-      "sizes": [
-        "XX-Small",
-        "X-Small",
-        "Small",
-        "3X-Large",
-        "4X-Large"
-      ],
-      "id": "8a95U5ow3ck"
-    },
-    {
-      "title": "alma",
-      "category": "Shorts",
-      "color": "eladi",
-      "price": 40,
-      "discount": 10,
-      "rating": 3,
-      "image": "/images/Fr3.png",
-      "sizes": [
-        "XX-Small",
-        "X-Small",
-        "Small",
-        "3X-Large",
-        "4X-Large"
-      ],
-      "id": "5NcwKw48JkY"
-    },
-    {
-      "title": "kiwi",
-      "category": "Shorts",
-      "color": "eladi",
-      "price": 40,
-      "discount": 10,
-      "rating": 3,
-      "image": "/images/Fr3.png",
-      "sizes": [
-        "XX-Small",
-        "X-Small",
-        "Small",
-        "3X-Large",
-        "4X-Large"
-      ],
-      "id": "rlqmcUY4C3w"
+"image": "https://media.istockphoto.com/id/618035468/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=F45ET0ZkmC9rPJqYSF8dggEre6Uwih9MMyKloMXBu5Q=",      "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

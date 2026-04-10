@@ -1,11 +1,12 @@
 import React from 'react'
 import Homepage from './Page/Home/Homepage'
 import './index.css'
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Filtercategory from './Page/Filter/Filtercategory';
 import Detailcart from './components/Detailcart/Detailcart';
 import Clothes2 from './components/Clothes2/Clothes2';
+import Dashboard from './admin/Dashboard/Dashboard';
 
 
 
@@ -17,18 +18,19 @@ import Clothes2 from './components/Clothes2/Clothes2';
 const App = () => {
   return (
     <div>
-     
+
       <Router>
         <Routes>
-          <Route path='/' element={<Layout/>}>
+          <Route path='/' element={<Layout />}>
             <Route index element={<Homepage />} />
             <Route path='Filter' element={<Filtercategory />} />
-           <Route path='product/:id' element={<Detailcart />} />
-           <Route path='product/:id' element={<Clothes2 />} />
-           
-    
+            <Route path='product/:id' element={<Detailcart />} />
+            <Route path='product/:id' element={<Clothes2 />} />
+
+
           </Route>
 
+          <Route path='admin' element={<Dashboard/>} />
 
 
 
