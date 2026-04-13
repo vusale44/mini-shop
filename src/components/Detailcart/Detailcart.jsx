@@ -3,25 +3,29 @@ import { useParams } from 'react-router-dom'
 import { ProductContext } from '../Context/Contextapi'
 
 
+
 const Detailcart = () => {
   const { id } = useParams()
 
   const { products } = useContext(ProductContext)
 
+  const { addToCart } = useContext(ProductContext)
 
   const mehsul = products.find(x => x.id == id)
 
 
-  if (!mehsul) return <div className="p-10 text-center">Məhsul tapılmadı...</div>
+
+  if (!mehsul)
+    return <div className="p-10 text-center">Məhsul tapılmadı...</div>
 
   return (
     <div class="p-4">
       <div class="lg:max-w-6xl max-w-xl mx-auto">
         <div class="grid items-start grid-cols-1 lg:grid-cols-2 gap-8 max-lg:gap-12 max-sm:gap-8">
-          <div class="w-full lg:sticky top-0">
+          <div class="w-full  top-0">
             <div class="flex flex-row gap-2">
               <div class="flex flex-col gap-2 w-16 max-sm:w-14 shrink-0">
-                <img src={mehsul.image} alt={mehsul.name}
+                <img src={mehsul.image} alt={mehsul.title}
                   class="aspect-[64/85] object-cover object-top w-full cursor-pointer  border-b-2 border-black" />
                 <img src="https://readymadeui.com/images/fashion-img-2.webp" alt="Product2"
                   class="aspect-[64/85] object-cover object-top w-full cursor-pointer  border-b-2 border-transparent" />
@@ -31,54 +35,83 @@ const Detailcart = () => {
                   class="aspect-[64/85] object-cover object-top w-full cursor-pointer  border-b-2 border-transparent" />
               </div>
               <div class="flex-1 ">
-                <img className='w-[600px]' src={mehsul.image} alt={mehsul.name} />
+                <img className='w-[600px]' src={mehsul.image} alt={mehsul.title} />
               </div>
             </div>
           </div>
-<div className="w-full">
-  <div>
-    <h3 className="text-lg sm:text-xl font-semibold text-slate-900">
-      Women Embroidered A-line Kurta
-    </h3>
-    <p className="text-slate-500 mt-2 text-sm">
-      Women Embroidered Georgette A-line Kurta With Attached Dupatta (Maroon)
-    </p>
-    <div className="flex items-center flex-wrap gap-4 mt-6">
-      <h4 className="text-slate-900 text-2xl sm:text-3xl font-semibold">
-        ${mehsul.price - ((mehsul.price * mehsul.discount) / 100)}
-      </h4>
-       <s className="text-slate-500 text-lg font-bold">${mehsul.price}</s>
-      <h4 className="text-slate-500 text-lg font-bold">{mehsul.discount}%</h4>
-    </div>
+          <div className="w-full">
+            <div>
+              <h3 className="text-lg sm:text-xl font-semibold text-slate-900">
+                {mehsul.title}
+              </h3>
+              <p className="text-slate-500 mt-2 text-sm">
+                {mehsul.description}
+              </p>
 
-    <div className="flex items-center gap-4 mt-4">
-      <p className="text-slate-500 text-sm">{mehsul.description}</p>
-    </div>
-  </div>
 
-  <hr className="my-6 border-slate-300" />
 
-  <div>
-    <h3 className="text-lg sm:text-xl font-semibold text-slate-900">Sizes</h3>
-  
-    <div className="flex flex-wrap gap-4 mt-4">
-      {products.find((x) => x.id == id).sizes.map((size) => (
-        <button
-          type="button"
-          className="px-4 py-2 border border-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-900 text-sm font-medium"
-        >
-          {size}
-        </button>
-      ))}
-    </div>
-  </div>
-</div>
+
+              {/* Qiymetler */}
+              <div className="flex items-center flex-wrap gap-4 mt-6">
+                <h4 className="text-black text-[34px]  font-semibold">
+                  ${mehsul.discount > 0 ? (mehsul.price - (mehsul.price * mehsul.discount / 100)).toFixed(2) : mehsul.price}
+                </h4>
+                {mehsul.discount > 0 && (
+                  <>
+                    <s className="text-[#0000004D] text-[30px] font-semibold">${mehsul.price}</s>
+                    <h4 className="w-[72px] h-[34px] font-semibold text-[18px] text-[#FF3333] flex justify-center items-center bg-[#FF33331A] border rounded-[62px]">-{mehsul.discount}%</h4>
+                  </>)}
+              </div>
+
+              {/* Tesviri aciqlama */}
+              <div className="flex items-center gap-4 mt-4">
+                <p className="text-slate-500 text-sm">{mehsul.description}</p>
+              </div>
+            </div>
+            <hr className="my-4 border-slate-300" />
+
+
+            {/* {Rengler} */}
+            <h2 className='mb-2 text-[#00000099] font-integral'>Select color</h2>
+            <div className="flex items-center gap-3 mb-6">
+
+              {products.find((x) => x.id == id).color.map((color) => (
+                <button
+                  type="button"
+                  value={color}
+                  style={{ backgroundColor: color }}
+                  className="cursor-pointer rounded-full overflow-hidden border-2 border-gray-300 w-8 h-8 hover:scale-[1.05] transition-all"
+                >
+
+                </button>
+              ))}
+            </div>
+
+
+
+
+
+            <div>
+              <h3 className="text-lg sm:text-xl font-semibold text-slate-900">Sizes</h3>
+
+              <div className="flex flex-wrap gap-4 mt-4">
+                {products.find((x) => x.id == id).sizes.map((size) => (
+                  <button
+                    type="button"
+                    className="px-4 py-2 border border-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-900 text-sm font-medium"
+                  >
+                    {size}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
 
           <div class="mt-6 flex flex-wrap gap-4">
             <button type="button"
               class="px-4 py-3 w-[45%] cursor-pointer border border-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-900 text-sm font-medium">Add
               to wishlist</button>
-            <button type="button"
+            <button onClick={() => addToCart(mehsul)} type="button"
               class="px-4 py-3 w-[45%] cursor-pointer border border-blue-600 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium">Add
               to cart</button>
           </div>
@@ -230,7 +263,7 @@ const Detailcart = () => {
         </div>
       </div>
     </div>
-    
+
 
   )
 }

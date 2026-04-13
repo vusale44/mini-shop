@@ -7,7 +7,6 @@ import App from './App'
 import { ProviderContext } from './components/Context/Contextapi'
 
 
-
 library.add(faCircleUser)
 
 createRoot(document.getElementById('root')).render(

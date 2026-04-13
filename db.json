@@ -4,9 +4,14 @@
       "id": "1",
       "title": "T-shirt with Tape Details",
       "category": "T-shirt",
-      "color": "black",
+      "color": [
+        "black",
+        "red",
+        "pink"
+      ],
       "price": 120,
       "rating": 4.5,
+      "discount": 0,
       "image": "/images/tshirt1.png",
       "sizes": [
         "XX-Small",
@@ -19,15 +24,20 @@
         "3X-Large",
         "4X-Large"
       ],
-      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
+      "description": "Comfortable cotton t-shirt with stylish tape details, perfect for casual wear."
     },
     {
       "id": "2",
       "title": "Skinny Fit Jeans",
       "category": "Pants",
-      "color": "blue",
+      "color": [
+        "blue",
+        "black",
+        "white",
+        "gray"
+      ],
       "price": 240,
-      "discount": "-20%",
+      "discount": 20,
       "rating": 3.5,
       "image": "/images/3.png",
       "sizes": [
@@ -38,33 +48,42 @@
         "3X-Large",
         "4X-Large"
       ],
-      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
+      "description": "Slim-fit jeans made from high-quality denim, ideal for a modern and comfortable look."
     },
     {
       "id": "3",
       "title": "Checkered Shirt",
       "category": "Shirt",
-      "color": "red",
+      "color": [
+        "red",
+        "blue",
+        "white",
+        "black"
+      ],
       "price": 180,
-      "discount": "-15%",
+      "discount": 15,
       "rating": 4.5,
       "image": "/images/tshirt2.png",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
+      "description": "Classic checkered shirt with a comfortable fit, perfect for casual or semi-formal occasions."
     },
     {
       "id": "4",
       "title": "Sleeve Striped T-shirt",
       "category": "T-shirt",
-      "color": "orange",
+      "color": [
+        "orange",
+        "yellow",
+        "red"
+      ],
       "price": 130,
-      "discount": "-30%",
+      "discount": 30,
       "rating": 4.5,
       "image": "/images/tshirt3.png",
-      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi",
+      "description": "Striped t-shirt with unique sleeve design, made from soft fabric for all-day comfort.",
       "sizes": [
         "XX-Small",
         "X-Small",
@@ -81,9 +100,12 @@
       "id": "5",
       "title": "Vertical Striped Shirt",
       "category": "Shirt",
-      "color": "green",
+      "color": [
+        "green",
+        "red"
+      ],
       "price": 212,
-      "discount": "-20%",
+      "discount": 20,
       "rating": 5,
       "image": "/images/Fr1.png",
       "sizes": [
@@ -97,15 +119,21 @@
         "3X-Large",
         "4X-Large"
       ],
-      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
+      "description": "Vertical striped shirt featuring a sleek design, made from breathable fabric for comfort and style."
     },
     {
       "id": "6",
       "title": "Courage Graphic T-shirt",
       "category": "T-shirt",
-      "color": "orange",
+      "color": [
+        "orange",
+        "yellow",
+        "green",
+        "blue"
+      ],
       "price": 145,
       "rating": 4,
+      "discount": 2,
       "image": "/images/Fr2.png",
       "sizes": [
         "XX-Small",
@@ -114,13 +142,17 @@
         "XX-Large",
         "3X-Large",
         "4X-Large"
-      ]
+      ],
+      "description": "Graphic t-shirt with courage-themed design, crafted from soft and breathable fabric for superior comfort."
     },
     {
       "id": "7",
       "title": "Loose Fit Bermuda Shorts",
       "category": "Shorts",
-      "color": "skyblue",
+      "color": [
+        "skyblue",
+        "blue"
+      ],
       "price": 80,
       "discount": 10,
       "rating": 3,
@@ -131,13 +163,16 @@
         "Small",
         "3X-Large",
         "4X-Large"
-      ]
+      ],
+      "description": "Loose fit Bermuda shorts made from comfortable fabric, perfect for casual summer wear."
     },
     {
       "id": "8",
       "title": "Faded Skinny Jeans",
       "category": "Pants",
-      "color": "gray",
+      "color": [
+        "gray"
+      ],
       "price": 210,
       "rating": 4.5,
       "image": "/images/Fr4.png",
@@ -151,13 +186,16 @@
         "XX-Large",
         "3X-Large",
         "4X-Large"
-      ]
+      ],
+      "description": "Faded skinny jeans with a vintage look, made from soft denim for everyday comfort."
     },
     {
       "id": "9",
       "title": "Gradient Graphic T-shirt",
       "category": "Casual",
-      "color": "white",
+      "color": [
+        "white"
+      ],
       "price": 145,
       "rating": 3.5,
       "image": "/images/Fr5.png",
@@ -171,29 +209,39 @@
         "XX-Large",
         "3X-Large",
         "4X-Large"
-      ]
+      ],
+      "description": "Gradient graphic t-shirt with a unique design, made from soft fabric for comfort."
     },
     {
       "id": "10",
       "title": "Polo with Tipping Details",
       "category": "Casual",
-      "color": "maroon",
+      "color": [
+        "maroon",
+        "red"
+      ],
       "price": 180,
-      "discount": "-25%",
+      "discount": 25,
       "rating": 4.5,
       "image": "/images/Fr6.png",
       "sizes": [
         "Large",
         "X-Large"
-      ]
+      ],
+      "description": "Polo shirt with tipping details, offering a smart casual look."
     },
     {
       "id": "11",
       "title": "Black Striped T-shirt",
       "category": "Casual",
-      "color": "white",
+      "color": [
+        "white",
+        "black",
+        "gray",
+        "blue"
+      ],
       "price": 120,
-      "discount": "-30%",
+      "discount": 30,
       "rating": 5,
       "image": "/images/Fr7.png",
       "sizes": [
@@ -206,21 +254,28 @@
         "XX-Large",
         "3X-Large",
         "4X-Large"
-      ]
+      ],
+      "description": "Black striped t-shirt with a classic design, perfect for layering."
     },
     {
       "id": "12",
       "title": "Yaşıl Bomber Gödəkçə",
       "price": 79.99,
       "rating": 5,
+      "discount": 0,
       "category": "Casual",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "green",
+      "color": [
+        "green",
+        "black",
+        "blue",
+        "red"
+      ],
       "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300&h=400&fit=crop",
-      "description": "Hərbi üslublu, rahat yaşıl bomber gödəkçə"
+      "description": "Military-style green bomber jacket, comfortable and stylish."
     },
     {
       "id": "13",
@@ -228,13 +283,16 @@
       "price": 32.99,
       "category": "Shirt",
       "rating": 5,
-      "color": "white",
+      "color": [
+        "white",
+        "black"
+      ],
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
       "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=300&h=400&fit=crop",
-      "description": "Zərif kəsimli, ofis üçün uyğun ağ qadın köynəyi"
+      "description": "Elegant white women's shirt suitable for office wear."
     },
     {
       "id": "14",
@@ -243,13 +301,15 @@
       "discount": 15,
       "rating": 5,
       "category": "Shirt",
-      "color": "blue",
+      "color": [
+        "blue"
+      ],
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
       "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&h=400&fit=crop",
-      "description": "Yazlıq üçün ideal çəhrayı-ağ zolaq naxışlı köynək"
+      "description": "Striped shirt with pink and white pattern, ideal for summer."
     },
     {
       "id": "15",
@@ -262,39 +322,46 @@
         "3X-Large",
         "4X-Large"
       ],
-      "color": "black",
+      "color": [
+        "black",
+        "white"
+      ],
       "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=580&auto=format&fit=crop",
-      "description": "Gündəlik yürüş və idman üçün maksimum rahatlıq təmin edən hava yastıqlı model."
+      "description": "Air-cushioned sneakers providing maximum comfort for daily walks and sports."
     },
     {
       "id": "16",
       "title": "Adidas Ultraboost 22",
       "price": 130,
-      "discount": "-25%",
+      "discount": 25,
       "rating": 4.9,
       "category": "Shoes",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "orange",
+      "color": [
+        "orange"
+      ],
       "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1450&auto=format&fit=crop",
-      "description": "Yüksək enerji geri dönüşü təmin edən qaçış ayaqqabısı."
+      "description": "Running shoes providing high energy return for optimal performance."
     },
     {
       "id": "17",
       "title": "Classic Leather Sneaker",
       "price": 85,
-      "discount": "-20%",
+      "discount": 20,
       "rating": 4.5,
       "category": "Shoes",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "brown",
+      "color": [
+        "brown"
+      ],
       "image": "https://images.unsplash.com/photo-1626947346165-4c2288dadc2a?q=80&w=870&auto=format&fit=crop",
-      "description": "Premium dəridən hazırlanmış, klassik üslubda gündəlik krossovka."
+      "description": "Classic style sneakers made from premium leather, perfect for everyday wear."
     },
     {
       "id": "18",
@@ -306,84 +373,102 @@
         "3X-Large",
         "4X-Large"
       ],
-      "color": "red",
+      "color": [
+        "red",
+        "black",
+        "white"
+      ],
       "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=464&auto=format&fit=crop",
-      "description": "Basketbol dünyasının ikonik modeli, həm idman həm də stil üçün."
+      "description": "Iconic basketball sneakers, perfect for both sports and casual style."
     },
     {
       "id": "19",
       "title": "Converse Chuck Taylor",
       "price": 60,
-      "discount": "-20%",
+      "discount": 20,
       "rating": 4.7,
       "category": "Shoes",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "white",
+      "color": [
+        "white"
+      ],
       "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?q=80&w=1431&auto=format&fit=crop",
-      "description": "Heç vaxt dəbdən düşməyən kətan teksturalı minimalist ayaqqabı."
+      "description": "Canvas-textured minimalist sneakers that never go out of style."
     },
     {
       "id": "20",
       "title": "Vans Old Skool",
       "price": 70,
-      "discount": "-25%",
+      "discount": 25,
       "rating": 4.6,
       "category": "Shoes",
-      "color": "green",
+      "color": [
+        "green",
+        "black",
+        "white",
+        "blue"
+      ],
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
       "image": "https://images.unsplash.com/photo-1550399865-ec7d23b18e8e?q=80&w=394&auto=format&fit=crop",
-      "description": "Skeytbord mədəniyyətindən ilhamlanan davamlı və rahat model."
+      "description": "Durable and comfortable sneakers inspired by skateboard culture."
     },
     {
       "id": "21",
       "title": "Floral Summer Dress",
       "price": 145,
-      "discount": "-10%",
+      "discount": 10,
       "rating": 4.7,
       "category": "Dress",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "green",
+      "color": [
+        "green",
+        "blue"
+      ],
       "image": "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?q=80&w=480&auto=format&fit=crop",
-      "description": "Yüngül və nəfəs alan pambıqdan hazırlanmış, çiçək naxışlı yay donu."
+      "description": "Light and breathable cotton floral summer dress."
     },
     {
       "id": "22",
       "title": "Elegant Evening Gown",
       "price": 120,
-      "discount": "-20%",
+      "discount": 20,
       "rating": 4.9,
       "category": "Dress",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "black",
+      "color": [
+        "black"
+      ],
       "image": "https://media.istockphoto.com/id/961849932/photo/black-dress-on-hanger-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=NegM9MR_7wnS2P-lJ5xXGYqVuTSvGhUq4c_FSwtUM8I=",
-      "description": "Ziyafətlər və rəsmi tədbirlər üçün saten teksturalı zərif axşam donu."
+      "description": "Elegant satin evening gown for parties and formal events."
     },
     {
       "id": "23",
       "title": "Casual Linen Dress",
       "price": 38.5,
-      "discount": "-15%",
+      "discount": 5,
       "rating": 4.5,
       "category": "Dress",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "red",
+      "color": [
+        "red"
+      ],
       "image": "https://media.istockphoto.com/id/625410268/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=3zNzsoPYLEnntC9qzBvl2odjXRsk1KSGqqFVdu1i8uc=",
-      "description": "Gündəlik istifadə üçün rahat, təbii kətan materialdan minimalist don."
+      "description": "Comfortable minimalist dress made from natural linen for everyday use."
     },
     {
       "id": "24",
@@ -395,22 +480,27 @@
         "4X-Large"
       ],
       "category": "Dress",
-      "color": "blue",
+      "color": [
+        "blue",
+        "red"
+      ],
       "image": "https://media.istockphoto.com/id/620007522/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=VS__vgb8N1CGUhSJnj04MTJs3KYq6Qnl7_5VMtIo-eM=",
-      "description": "Hər bir qadının qarderobunda olmalı olan klassik və çoxfunksiyalı qara don."
+      "description": "Classic and versatile black dress that every woman should have in her wardrobe."
     },
     {
       "id": "25",
       "title": "Boho Midi Dress",
       "price": 265,
-      "discount": "-10%",
+      "discount": 10,
       "rating": 4.6,
       "category": "Dress",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "pink",
+      "color": [
+        "pink"
+      ],
       "image": "https://media.istockphoto.com/id/542822390/photo/dress-on-hanger.jpg?s=612x612&w=0&k=20&c=YOjF6e6tIQIuRv03K1IZ59xXpXZw9CiOMcgB5Iw5DFA=",
       "description": "Bohem üslubunda, beli vurğulayan və qat-qat ətəkli şıq midi don."
     },
@@ -418,16 +508,73 @@
       "id": "26",
       "title": "Polka Dot Sun Dress",
       "price": 230,
-      "discount": "-40%",
+      "discount": 40,
       "rating": 4.4,
       "category": "Dress",
       "sizes": [
         "3X-Large",
         "4X-Large"
       ],
-      "color": "green",
-"image": "https://media.istockphoto.com/id/618035468/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=F45ET0ZkmC9rPJqYSF8dggEre6Uwih9MMyKloMXBu5Q=",      "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
+      "color": [
+        "green"
+      ],
+      "image": "https://media.istockphoto.com/id/618035468/photo/dress-on-clothes-rack.jpg?s=612x612&w=0&k=20&c=F45ET0ZkmC9rPJqYSF8dggEre6Uwih9MMyKloMXBu5Q=",
+      "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
+    },
+    {
+      "id": "27",
+      "title": "Polka Dot Sun Dress",
+      "price": 230,
+      "discount": 40,
+      "rating": 4.4,
+      "category": "Dress",
+      "sizes": [
+        "3X-Large",
+        "4X-Large"
+      ],
+      "color": [
+        "green"
+      ],
+      "image": "https://readymadeui.com/images/product14.webp",
+      "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
+    }
+    ,
+    {
+      "id": "28",
+      "title": "Polka Dot Sun Dress",
+      "price": 230,
+      "discount": 40,
+      "rating": 4.4,
+      "category": "Dress",
+      "sizes": [
+        "3X-Large",
+        "4X-Large"
+      ],
+      "color": [
+        "green"
+      ],
+      "image": "https://readymadeui.com/images/watch5.webp",
+      "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
+    }
+    ,
+    {
+      "id": "29",
+      "title": "Polka Dot Sun Dress",
+      "price": 230,
+      "discount": 40,
+      "rating": 4.4,
+      "category": "Dress",
+      "sizes": [
+        "3X-Large",
+        "4X-Large"
+      ],
+      "color": [
+        "green"
+      ],
+      "image": "https://readymadeui.com/images/sunglass1.webp",
+      "description": "Retro tərzdə, xallı naxışlı və ipək toxunuşlu yüngül yay geyimi."
     }
   ],
+
   "$schema": "./node_modules/json-server/schema.json"
 }

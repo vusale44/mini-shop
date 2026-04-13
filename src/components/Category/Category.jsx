@@ -28,8 +28,8 @@ const Category = () => {
     let category = ["All", ...new Set(products.map((item) => item.category))]
     let filterCategory = cat === "All" ? products : products.filter((item) => item.category === cat)
 
-    let categorycolor = ["All", ...new Set(products.map((item) => item.color))]
-    let filtercolor = color === "All" ? filterCategory : filterCategory.filter((item) => item.color === color)
+    let categorycolor = ["All", ...new Set(products.flatMap((item) => item.color))]
+    let filtercolor = color === "All" ? filterCategory : filterCategory.filter((item) => item.color.includes(color))
 
     let categorysize = ["Clear", ...new Set(sizeAll.map((item) => item))]
     let filtersize = size === "Clear" ? filtercolor : filtercolor.filter((item) => item.sizes.includes(size))
@@ -167,13 +167,13 @@ const Category = () => {
                                             <h4 className="text-[15px] text-slate-900 font-medium leading-relaxed">{product.title}</h4>
 
                                             <div className="flex items-center mt-2">
-                                               
+
                                                 <div className="flex items-center space-x-1">
                                                     {[1, 2, 3, 4, 5].map((star) => (
                                                         <svg
                                                             key={star}
                                                             className={`w-4 h-4 ${star <= product.rating ? "fill-[#facc15]" : "fill-[#CED5D8]"}`}
-                                                                 viewBox="0 0 14 13"
+                                                            viewBox="0 0 14 13"
 
                                                             xmlns="http://www.w3.org/2000/svg"
                                                         >
@@ -187,8 +187,9 @@ const Category = () => {
                                                 <span className="text-[15px] text-slate-900 font-medium ml-2">{product.rating}/5</span>
                                             </div>
                                             <h4 class="text-base text-slate-900 font-semibold mt-4">${product.price} <span className='text-sm text-gray-400 line-through'>{product.oldPrice}</span>
-                                                <span className='bg-red-200 text-[14px] ml-3 text-red-700 font-light rounded-[40px]'>{product.discount}</span></h4>
-
+                                                {product.discount > 0 && (
+                                                    <span className='bg-red-200 text-[14px] ml-3 text-red-700 font-light rounded-[40px]'>{product.discount}%</span>)}
+                                            </h4>
                                         </div>
 
 
