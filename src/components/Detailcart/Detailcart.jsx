@@ -105,9 +105,7 @@ const Detailcart = () => {
                 ))}
               </div>
             </div>
-          </div>
-
-          <div class="mt-6 flex flex-wrap gap-4">
+             <div class="mt-6 flex flex-wrap gap-4">
             <button type="button"
               class="px-4 py-3 w-[45%] cursor-pointer border border-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-900 text-sm font-medium">Add
               to wishlist</button>
@@ -115,6 +113,9 @@ const Detailcart = () => {
               class="px-4 py-3 w-[45%] cursor-pointer border border-blue-600 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium">Add
               to cart</button>
           </div>
+          </div>
+
+        
         </div>
 
         <hr class="my-6 border-slate-300" />

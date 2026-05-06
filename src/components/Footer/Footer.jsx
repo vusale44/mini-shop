@@ -7,13 +7,14 @@ import Google from "../../assets/Badge (4).png"
 import twitter from "../../assets/twitter.png"
 import instagram from "../../assets/instagram.png"
 import github from "../../assets/github.png"
+import Footerpart from '../Footerpart/Footerpart'
 
 const Footer = () => {
   return (
     <div className=''>
-        
-   <footer class="bg-[#F0F0F0] pt-16 pb-8 px-4 md:px-16 font-sans text-gray-600">
-  <div class="max-w-7xl mx-auto">
+      <div className='flex justify-center  '> <Footerpart/> </div>
+   <footer class="bg-[#F0F0F0]  h-[390px] pt-16 pb-8 px-4 md:px-16 font-sans text-gray-600">
+  <div class="max-w-7xl mx-auto"> 
     <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
       
       <div class="col-span-2 md:col-span-1">

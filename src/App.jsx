@@ -6,7 +6,6 @@ import Layout from './components/Layout/Layout';
 import Filtercategory from './Page/Filter/Filtercategory';
 import Detailcart from './components/Detailcart/Detailcart';
 import Clothes2 from './components/Clothes2/Clothes2';
-import Dashboard from './admin/Dashboard/Dashboard';
 import Cartpage from './Page/Cart/Cartpage';
 
 
@@ -32,7 +31,6 @@ const App = () => {
 
           </Route>
 
-          <Route path='admin' element={<Dashboard/>} />
 
 
 

@@ -11,15 +11,40 @@ export const ProviderContext = ({ children }) => {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [cart, setCart] = useState([]);
-    let len = cart.length
+    const totalItems = cart.reduce((total, item) => total + (item.quantity || 0), 0);
 
 
     const addToCart = (basket) => {
         // setCart([...cart, basket]);
-        setCart(cart.find((x) => x.id === basket.id) ? cart : [...cart, { ...basket }]);
-        
-        
+        // setCart(cart.find((x) => x.id === basket.id) ? cart : [...cart, { ...basket }]);
+        setCart((prevCart) => {
+            
+            const isItemInCart = prevCart.find((item) => item.id === basket.id);
+
+            if (isItemInCart) {
+                
+                return prevCart.map((item) =>
+                    item.id === basket.id
+                        ? { ...item, quantity: (item.quantity || 1) + 1 }
+                        : item
+                );
+            }
+           
+            return [...prevCart, { ...basket, quantity: 1 }];
+        });
+
     }
+    const decreaseAmount = (id) => {
+        setCart((prevCart) => {
+            return prevCart.map((item) => {
+                if (item.id === id) {
+                    const newQty = (item.quantity || 1) - 1;
+                    return { ...item, quantity: newQty < 1 ? 1 : newQty };
+                }
+                return item;
+            });
+        });
+    };
     const removeItem = (basket) => {
         setCart(cart.filter((item) => item.id !== basket))
     }
@@ -80,7 +105,7 @@ export const ProviderContext = ({ children }) => {
 
 
     return (
-        <ProductContext.Provider value={{ products, cart, addToCart, len, removeItem }}>
+        <ProductContext.Provider value={{ products, cart, addToCart, totalItems, decreaseAmount, removeItem }}>
 
             {children}
 
