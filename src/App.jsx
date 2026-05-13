@@ -7,9 +7,9 @@ import Filtercategory from './Page/Filter/Filtercategory';
 import Detailcart from './components/Detailcart/Detailcart';
 import Clothes2 from './components/Clothes2/Clothes2';
 import Cartpage from './Page/Cart/Cartpage';
-
-
-
+import AdminLayout from './admin/components/AdminLayout/AdminLayout';
+import Dashboard from './admin/components/Dashboard/Dashboard';
+import Products from './admin/components/Products/Products';
 
 
 
@@ -30,10 +30,16 @@ const App = () => {
 
 
           </Route>
+        </Routes>
 
+      </Router>
 
-
-
+      <Router>  
+        <Routes>
+          <Route path='/admin' element={<AdminLayout />}>
+          <Route index element={<Dashboard />} />
+         <Route path='/admin/products' element={<Products />} />
+          </Route>
         </Routes>
       </Router>
 
